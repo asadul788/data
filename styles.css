@@ -1,0 +1,79 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #121212;
+    color: #f0f0f0;
+}
+
+/* Hero Section */
+.hero {
+    height: 50vh;
+    background: url('/static/images/forest.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    color: #0ff; /* Neon Blue */
+    text-shadow: 0 0 20px #0ff;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Form Container */
+.form-container {
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #0ff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #2c2c2c;
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0ff;
+    box-shadow: 0 0 5px #0ff;
+}
+
+button {
+    background: #0ff;
+    color: #000;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #00cccc;
+    box-shadow: 0 0 10px #00cccc;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Dark Theme</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Data Entry Portal</h1>
+            <p>Capture and manage your data effortlessly.</p>
+        </div>
+    </div>
+    <div class="form-container">
+        <h2>Submit Your Details</h2>
+        <form id="data-form">
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <input type="text" name="Phone" placeholder="Phone Number" required>
+            <input type="text" name="Address" placeholder="Address" required>
+            <input type="text" name="NID" placeholder="NID Number" required>
+            <button type="submit">Submit</button>
+        </form>
+        <button id="download-data">Download Data</button>
+        <p id="response-message"></p>
+    </div>
+</body>
+<script src="/static/js/app.js"></script>
+</html>
